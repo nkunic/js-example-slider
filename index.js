@@ -9,9 +9,9 @@ var counter = 1;
 
 var loop = setInterval(function(){
   counter++; // 2
-  // if(counter == 3) {
-  //   counter == 1;
-  // }
-  (counter == 3) ? (counter == 1) : (counter == counter);
-  img.setAttribute("src", "images/bg-img" + counter + ".jpg");
+  if(counter == 6) {
+    counter == 1;
+  }
+  //(counter == 3) ? (counter == 1) : (counter == counter);
+  img.setAttribute("src", "https://github.com/nkunic/js-example-slider/blob/master/images/bg-img1.jpg" + counter + ".jpg");
 },2000)

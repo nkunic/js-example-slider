@@ -2,8 +2,12 @@
 import './style.css';
 
 // Write Javascript code!
+
+/*** SLIDER ***/
+
+// Image
 var img = document.querySelector('img');
-console.log(img);
+//console.log(img);
 
 var counter = 1;
 
